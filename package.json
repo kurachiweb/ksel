@@ -1,0 +1,28 @@
+{
+    "name": "element-wrapper",
+    "version": "0.0.1",
+    "description": "JS method wrapper for DOM manipulation.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack --config ./webpack.dev.js",
+        "prod": "webpack --config ./webpack.prod.js"
+    },
+    "keywords": [
+        "javascript",
+        "DOM",
+        "element"
+    ],
+    "author": "Kurachi Shunsuke",
+    "license": "CC-PDDC",
+    "devDependencies": {
+        "@babel/cli": "^7.10.5",
+        "@babel/core": "^7.11.4",
+        "@babel/preset-env": "^7.11.0",
+        "babel-loader": "^8.1.0",
+        "core-js": "^3.6.5",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-merge": "^5.1.3"
+    }
+}
